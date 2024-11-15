@@ -1,0 +1,23 @@
+{
+  "name": "compound-interest-calculator",
+  "version": "1.0.0",
+  "node": ">=20",
+  "description": "app for grasping the compounding effect",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && jest out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "compound-interest-calculator"
+  },
+  "author": "Shivangi Das",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "ts-jest": "^29.2.5"
+  }
+}
