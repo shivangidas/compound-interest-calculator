@@ -24,6 +24,10 @@ $$A = P * ({1+ {r \over n}} )^ {n * t}$$
 
 ### Compound interest with regular deposits
 
+I wrote a function `calculateWithoutFormula` where I use the simple interest and add it iteratively to the new principal to find the final amount.
+
+I used the following formula to verify my results.
+
 $$A = P * ({1+ {r \over n}} )^ {n * t} + {PMT * (({1 + {r \over n}}) ^ {n * t} - 1) \over {r \over n}} $$
 
     PMT - regular monthly deposits
